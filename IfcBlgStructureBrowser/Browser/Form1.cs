@@ -35,6 +35,9 @@ namespace Browser
             LoadXML();
         }
 
+        /// <summary>
+        /// Loading the ifc xml from file
+        /// </summary>
         private void LoadXML()
         {
             if (File.Exists(m_filename))
